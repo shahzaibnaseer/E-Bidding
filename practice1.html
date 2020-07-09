@@ -1,5 +1,6 @@
 <html>
     <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet"  href="main.css">
         <title>Practice</title>
@@ -7,10 +8,10 @@
     </head>
     <body>
             
-            <div class="row no-gutters">
-                <div class=col>        
+            <div class="row no-gutters ">
+                <div class="col">        
                     <!-- Nav Bar -->        
-                     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
                     <a class="navbar-brand" href="#">E-Bidding</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,10 +27,10 @@
                       <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             
-                          <a class="nav-link btn  btn-outline-warning mr-sm-2" style="color:#fdfdfb"  href="#">Login <span class="sr-only">(current)</span></a>
+                          <a class="nav-link btn  mr-sm-2" style="color:#fdfdfb"  href="#">Login <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link btn btn-outline-warning" style="color:#faf9f8" href="#">SignUp</a>
+                          <a class="nav-link btn " style="color:#faf9f8" href="#">SignUp</a>
                         </li>
                       </ul>
 
@@ -40,22 +41,22 @@
 
                 </div>
                 <!-- Row-1-->
-                <div class="container h-75">
-                    <div class="row no-gutters">
+
+                    <div class="row no-gutters  ">
                         <!--Overlay--> 
-                    <div class="col-sm-4" style="background-color: rgba(238, 236, 229, 0.411);">
-                        <h4 class="pl-3 mt-2">Category</h4>
+                    <div class="col-sm-3" style="background-color: rgba(238, 236, 229, 0.411);">
+                        <h4 class="pl-3 mt-2">Category </h4>
                         <div id="overlay" onclick="off()">
                             <div class="jumbotron jumbotron-fluid">
                                 <div class="container">
-                                  <h1 class="display-6">Fluid jumbotron</h1>
+                                  <h1 class="display-6">Category</h1>
                                     <hr>
                                     <div class="row">
                                         <div class="col-sm-3 border">
                                             <ul style="list-style-type:none">
-                                                <li><a style="color: darkgray;">Category</a></li>
-                                                <li><a style="color: darkgray;">Category</a></li>
-                                                <li><a style="color: darkgray;">Category</a></li>
+                                                <li><a style="color: darkgray;">Electronics</a></li>
+                                                <li><a style="color: darkgray;">Cosmetics</a></li>
+                                                <li><a style="color: darkgray;">Cooking</a></li>
                                                 <li><a style="color: darkgray;">Category</a></li>
                                                 <li><a style="color: darkgray;">Category</a></li>
                                             </ul>
@@ -92,102 +93,93 @@
                               </div></div>
                         <hr>
                         <!--Col-Before-Carousel-->
-                    <ul style="list-style-type:none">
-                    <li onclick="on()"><span style="color: darkgray;">Category</span></li>
-                    <li><span style="color: darkgray;">Category</span></li>
-                    <li><span style="color: darkgray;">Category</span></li>
-                    <li><span style="color: darkgray;">Category</span></li>
-                    <li><span style="color: darkgray;">Category</span></li>
-                    <li><span style="color: darkgray;">Category</span></li>
-                    <li><span style="color: darkgray;">Category</span></li>
+                    <ul style="list-style-type:none; padding-left: 1rem;">
+                    <li onclick="on()">
+                    <span class="list">Category</span><i class="fa fa-caret-right mr-3" aria-hidden="true"style="float: right;"></i><hr></li>
+                    <li><span class="list">Gallery Auction </span><hr></li>
+                    <li><span class="list">New Today</span><hr></li>
+                    <li><span class="list">Ending Today</span><hr></li>
+                    <li><span class="list">Buy it Now!</span><hr></li>
+                    <li><span class="list">Hot 50</span><hr></li>
+
                     
                    
 
                 </ul>
                     </div>
-                    <div class="col-sm-8 h-100 "> 
+                    <div class="col-sm-9 h-50"> 
                         <!-- Carousel-->
-                        <div id="carouselExampleSlidesOnly" class="carousel slide border h-100  w-100" data-ride="carousel">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide border h-100  w-100 " data-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active h-100">
-                                  <img src="C:\Users\acer\OneDrive\Desktop\mountain.jpg" class="d-block mh-100 mw-100 " style="height: 28rem; width:51rem"alt="Display Your Add">
+                                  <img src="C:\Users\acer\OneDrive\Desktop\food.jpg" class="d-block mh-100 mw-100 " style="height: 28rem; width:60rem"alt="Display Your Add">
                               </div>
                               <div class="carousel-item h-100">
-                                <img src="C:\Users\acer\OneDrive\Desktop\montain2.jpg" class="d-block mh-100 mw-100"style="height: 28rem;width:51rem" alt="Display Your Add">
+                                <img src="C:\Users\acer\OneDrive\Desktop\chocalte.jpg" class="d-block mh-100 mw-100"style="height: 28rem;width:60rem" alt="Display Your Add">
                               </div>
                               <div class="carousel-item h-100">
-                                <img src="C:\Users\acer\OneDrive\Desktop\vivo.jpg" class="d-block mh-100 mw-100"style="height: 28rem;width:51rem" alt="Display Your Add">
+                                <img src="C:\Users\acer\OneDrive\Desktop\iphone.jpg" class="d-block mh-100 mw-100"style="height: 28rem;width:60rem" alt="Display Your Add">
                               </div>
                             </div>
                           </div></div>
-                </div></div>
+                </div>
                 
                
-                           <div class="container ">
-                               <!-- row 2-->
-                           <div class="row border topM">
-                               <!--Col 1-->
-                            <div class="col-sm-3 ">
-                                <div class="card mh-100 " style="width: 18rem; height: 31rem;">
-                                    <img class="card-img-top "style="" src="C:\Users\acer\OneDrive\Desktop\sufi.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <hr>
-                                      <p><span style="font-weight:bold ;">Price:</span>200Rs</p>
-                                      <p class="card-text demo"></p>
-                                      <a href="#" class="btn btn-primary">Lets Bid</a>
-                                      <a href="#" class="btn btn-success ml-5">Buy Now!</a>
-                                    </div>
-                                  </div>
-                            </div>
-                            <!--Col 2-->
-                            <div class="col-sm-3">
-                                <div class="card mh-100" style="width: 18rem;height: 31rem">
-                                    <img class="card-img-top " src="C:\Users\acer\OneDrive\Desktop\ear buds.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                      <h5 class="card-title">IPhone X</h5>
-                                      <hr>
-                                      <p><span style="font-weight:bold ;">Price:</span>200Rs</p>
-                                      <p class="card-text demo">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <a href="#" class="btn btn-primary">Let's Bid</a>
-                                      <a href="#" class="btn btn-success ml-5">Buy Now!</a>
-                                    </div>
-                                  </div>
-                            </div>
-                            <!--Col 3-->
-                            <div class="col-sm-3 ">
-                                <div class="card mh-100" style="width: 18rem;height: 31rem">
-                                    <img class="card-img-top" style="height:15 rem" src="C:\Users\acer\OneDrive\Desktop\bottle.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Leather Hand Bag </h5>
-                                      <hr>
-                                      <p><span style="font-weight:bold ;">Price:</span>200Rs</p>
-                                      <p class="card-text demo "></p>
-                                      <a href="#" class="btn btn-primary">Let's Bid</a>
-                                      <a href="#" class="btn btn-success ml-5">Buy Now!</a>
-                                    </div>
-                                  </div>
-                            </div>
-                            <!--Col-4-->
-                            <div class="col-sm-3 ">
-                                <div class="card mh-100" style="width: 18rem;height: 31rem">
-                                    <img class="card-img-top" style="height:15 rem" src="C:\Users\acer\OneDrive\Desktop\bottle.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Leather Hand Bag </h5>
-                                      <hr>
-                                      <p><span style="font-weight:bold ;">Price:</span>200Rs</p>
-                                      <p class="card-text demo "></p>
-                                      <a href="#" class="btn btn-primary">Let's Bid</a>
-                                      <a href="#" class="btn btn-success ml-5">Buy Now!</a>
-                                    </div>
-                                  </div>
-                            </div>
-                          </div>
+                           <dic class="container">
+                              <!-- row 2-->
+                           <div class="row border">
+                            <!--Col 1-->
+                         <div class="col-lg-4 col-md-4 col-sm-6 mb-2 " >
+                             <div class="card mh-100 ml-5" style="width: 18rem; height: 31rem;display: inline-block;">
+                                 <img class="card-img-top "style="" src="C:\Users\acer\OneDrive\Desktop\sufi.jpg" alt="Card image cap">
+                                 <div class="card-body">
+                                   <h5 class="card-title">Card title</h5>
+                                   <hr>
+                                   <p><span style="font-weight:bold ;">Price:</span>200Rs</p>
+                                   <p class="card-text demo"></p>
+                                   <a href="#" class="btn btn-primary">Lets Bid</a>
+                                   <a href="#" class="btn btn-success ml-5">Buy Now!</a>
+                                 </div>
+                               </div>
+                         </div>
+                         <!--Col 2-->
+                         <div class="col-lg-4 col-md-4 col-sm-6 mb-2" >
+                             <div class="card mh-100" style="width: 18rem;height: 31rem; display: inline-block;">
+                                 <img class="card-img-top " src="C:\Users\acer\OneDrive\Desktop\ear buds.jpg" alt="Card image cap">
+                                 <div class="card-body">
+                                   <h5 class="card-title">IPhone X</h5>
+                                   <hr>
+                                   <p><span style="font-weight:bold ;">Price:</span>200Rs</p>
+                                   <p class="card-text demo"></p>
+                                   <a href="#" class="btn btn-primary">Let's Bid</a>
+                                   <a href="#" class="btn btn-success ml-5">Buy Now!</a>
+                                 </div>
+                               </div>
+                         </div>
+                         <!--Col 3-->
+                         <div class="col-lg-4 col-md-4 col-sm-6 mb-2">
+                             <div class="card mh-100" style="width: 18rem;height: 31rem;display: inline-block;">
+                                 <img class="card-img-top" style="height:15 rem" src="C:\Users\acer\OneDrive\Desktop\bottle.jpg" alt="Card image cap">
+                                 <div class="card-body">
+                                   <h5 class="card-title">Leather Hand Bag </h5>
+                                   <hr>
+                                   <p><span style="font-weight:bold ;">Price:</span>200Rs</p>
+                                   <p class="card-text demo "></p>
+                                   <a href="#" class="btn btn-primary">Let's Bid</a>
+                                   <a href="#" class="btn btn-success ml-5">Buy Now!</a>
+                                 </div>
+                               </div>
+                         </div>
+                         <!--Col-4-->
+
+                       </div>
+                           </dic>
+                              
                           <!--Row-3-->
                           <div class="row border topM">
                               <!--Col1-->
-                            <div class="col-sm-3 ">
-                                <div class="card mh-100" style="width: 18rem;height: 31rem">
+                            <div class="col-lg-4 col-md-4 col-sm-6 mb-2">
+                                <div class="card mh-100 ml-5" style="width: 18rem;height: 31rem">
                                     <img class="card-img-top" src="C:\Users\acer\OneDrive\Desktop\sufi.jpg" alt="Card image cap">
                                     <div class="card-body">
                                       <h5 class="card-title">Card title</h5>
@@ -200,7 +192,7 @@
                                   </div>
                             </div>
                             <!--Col 2-->
-                            <div class="col-sm-3">
+                            <div class="col-lg-4 col-md-4 col-sm-6 mb-2">
                                 <div class="card mh-100" style="width: 18rem;height: 31rem">
                                     <img class="card-img-top" src="C:\Users\acer\OneDrive\Desktop\ear buds.jpg" alt="Card image cap">
                                     <div class="card-body">
@@ -214,7 +206,7 @@
                                   </div>
                             </div>
                             <!--Col 3-->
-                            <div class="col-sm-3 ">
+                            <div class="col-lg-4 col-md-4 col-sm-6 mb-2">
                                 <div class="card mh-100" style="width: 18rem;height: 31rem">
                                     <img class="card-img-top" src="C:\Users\acer\OneDrive\Desktop\bottle.jpg" alt="Card image cap">
                                     <div class="card-body">
@@ -228,21 +220,9 @@
                                   </div>
                             </div>
                             <!--Col-4-->
-                            <div class="col-sm-3 ">
-                                <div class="card mh-100" style="width: 18rem;height: 31rem">
-                                    <img class="card-img-top" src="C:\Users\acer\OneDrive\Desktop\bottle.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Leather Hand Bag </h5>
-                                      <hr>
-                                      <p><span style="font-weight:bold ;">Price:</span>200Rs</p>
-                                      <p class="card-text demo">Time:</p>
-                                      <a href="#" class="btn btn-primary">Lets Bid</a>
-                                      <a href="#" class="btn btn-success ml-5">Buy Now!</a>
-                                    </div>
-                                  </div>
-                            </div>
+
                           </div>
-                          </div>
+                        
                           <!--Pagination-->
                           <footer class="d-flex justify-content-center topM">
                             <nav aria-label="Page navigation example ">
